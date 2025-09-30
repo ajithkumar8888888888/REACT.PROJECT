@@ -1,0 +1,58 @@
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f9fafb;
+  color: #111827;
+}
+
+.container {
+  padding: 1.5rem;
+}
+
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+
+nav {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+
+nav a {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+
+.names-link {
+  background-color: #3b82f6;
+}
+.names-link:hover {
+  background-color: #2563eb;
+}
+
+
+.emails-link {
+  background-color: #10b981;
+}
+.emails-link:hover {
+  background-color: #059669;
+}
+
+.users-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+.users-list li {
+  margin-bottom: 0.5rem;
+}
