@@ -5,9 +5,9 @@ const UsersList = ({ field }) => {
   const users = useContext(UserContext);
 
   return (
-    <ul className="list-disc pl-6">
+    <ul className="users-list">
       {users.map((user) => (
-        <li key={user.id} className="mb-2">
+        <li key={user.id}>
           {field === "name" ? user.name : user.email}
         </li>
       ))}
